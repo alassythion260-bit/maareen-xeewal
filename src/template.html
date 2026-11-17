@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Maareen Xeewal, restaurant sénégalais au Point E, Dakar</title>
-<meta name="description" content="Maareen Xeewal Restaurant, le plaisir à chaque bouchée. Cuisine sénégalaise au Point E, Rue 16, avenue Birago Diop, Dakar. Ouvert tous les jours de 12 h 30 à minuit. Commandez sur WhatsApp au 76 766 06 11.">
+<meta name="description" content="Maareen Xeewal Restaurant. Cuisine sénégalaise au Point E, Rue 16, avenue Birago Diop, Dakar. Ouvert tous les jours de 12 h 30 à minuit. Commandez sur WhatsApp au 76 766 06 11.">
 <meta name="theme-color" content="#0F2E22">
 <link rel="icon" href="/img/logo-192.png">
 <meta property="og:image" content="/img/logo.jpg">
@@ -54,14 +54,15 @@ section,header,nav,footer{padding-left:max(24px,env(safe-area-inset-left));paddi
 .btn-dark{background:var(--green-800);color:#fff}
 
 nav{background:var(--green-800);color:#fff;padding-top:14px;padding-bottom:14px}
-nav .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 24px}
+nav .wrap{display:flex;flex-direction:column;align-items:center;gap:10px}
 .brand{display:flex;align-items:center;gap:12px;font-family:var(--f-display);font-weight:800;font-size:20px}
-.logo-full{height:76px;width:auto;display:block}
-@media (max-width:600px){.logo-full{height:68px}}
+.logo-full{height:96px;width:auto;display:block}
+@media (max-width:600px){.logo-full{height:84px}}
 .logo{width:46px;height:46px;border-radius:50%;display:block;object-fit:cover;border:1px solid rgba(227,176,75,.5)}
-.links{display:flex;flex-wrap:wrap;align-items:center;gap:8px 22px;font-size:15px}
+.links{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:8px 22px;font-size:15px}
 .links a{text-decoration:none;padding:10px 4px;color:#fff}
 .links a.btn{padding:10px 18px;min-height:44px}
+@media (max-width:600px){.links{gap:4px 14px;font-size:14px}.links a.btn{padding:8px 14px}}
 
 header.hero{background:var(--green-800);color:#fff;padding-top:72px;padding-bottom:80px}
 .hero .wrap{display:flex;flex-wrap:wrap;gap:40px;align-items:center}
@@ -69,7 +70,6 @@ header.hero{background:var(--green-800);color:#fff;padding-top:72px;padding-bott
 .kicker{font-size:13px;letter-spacing:.12em;text-transform:uppercase;font-weight:700;color:var(--gold)}
 .hero h1{font-weight:700;color:var(--gold);font-size:clamp(40px,8vw,76px);line-height:1;letter-spacing:-.02em}
 .hero p.lead{font-size:19px;max-width:520px;color:#D5E2DA}
-.hero .tagline{font-family:var(--f-display);font-style:italic;font-size:clamp(20px,3vw,26px);color:#fff;margin-top:-6px}
 .cta-row{display:flex;flex-wrap:wrap;gap:12px;padding-top:8px}
 .glance{flex:1 1 300px;min-width:0;background:var(--green-900);border:1px solid #24503E;border-radius:14px;padding:28px;display:flex;flex-direction:column;gap:18px}
 .glance dl{margin:0;display:flex;flex-direction:column;gap:4px}
@@ -233,7 +233,6 @@ html[data-theme="dark"] .theme .moon,html:not([data-theme="dark"]) .theme .sun{d
     <div class="text">
       <div class="kicker"><span data-l="fr">Cuisine sénégalaise · Point E, Dakar</span><span data-l="en">Senegalese food · Point E, Dakar</span></div>
       <h1>Maareen<br>Xeewal</h1>
-      <p class="tagline"><span data-l="fr">Le plaisir à chaque bouchée</span><span data-l="en">Pleasure in every bite</span></p>
       <p class="lead"><span data-l="fr">Des plats sénégalais généreux, servis au Point E, sur l’avenue Birago Diop. Sur place ou à emporter.</span><span data-l="en">Generous Senegalese dishes in Point E, on Avenue Birago Diop. Eat in or take away.</span></p>
       <div class="cta-row">
         <a class="btn btn-gold" href="#menu"><span data-l="fr">Voir le menu</span><span data-l="en">See the menu</span></a>
