@@ -1,0 +1,64 @@
+{
+  "settings": {
+    "switchHour": 17,
+    "matinHours": "",
+    "soirHours": ""
+  },
+  "sections": {
+    "matin": [],
+    "soir": [],
+    "boissons": [
+      {
+        "id": "jus-orange",
+        "name": "Jus d’orange",
+        "name_en": "Orange juice",
+        "desc": "Orange pressée, servie bien fraîche.",
+        "desc_en": "Freshly squeezed, served cold.",
+        "price": 1000,
+        "img": "/img/jus-orange.webp",
+        "available": true,
+        "contain": true
+      },
+      {
+        "id": "jus-ditakh",
+        "name": "Jus de ditakh",
+        "name_en": "Ditakh juice",
+        "desc": "Jus du fruit de ditakh, bien vert et rafraîchissant.",
+        "desc_en": "Juice of the ditakh, a green Senegalese fruit. Very refreshing.",
+        "price": 1000,
+        "img": "/img/jus-ditakh.webp",
+        "available": true
+      },
+      {
+        "id": "jus-bissap",
+        "name": "Jus de bissap",
+        "name_en": "Bissap juice",
+        "desc": "Fleurs d’hibiscus, servi glacé.",
+        "desc_en": "Hibiscus flower juice, served iced.",
+        "price": 1000,
+        "img": "/img/jus-bissap.webp",
+        "available": true
+      },
+      {
+        "id": "jus-ginger",
+        "name": "Jus de ginger",
+        "name_en": "Ginger juice",
+        "desc": "Gingembre frais et citron vert.",
+        "desc_en": "Fresh ginger and lime.",
+        "price": 1000,
+        "img": "/img/jus-ginger.webp",
+        "available": true
+      },
+      {
+        "id": "jus-bouye",
+        "name": "Jus de bouye",
+        "name_en": "Bouye juice",
+        "desc": "Pulpe du fruit du baobab, onctueux.",
+        "desc_en": "Creamy baobab fruit juice.",
+        "price": 1000,
+        "img": "/img/jus-bouye.webp",
+        "available": true
+      }
+    ]
+  }
+}

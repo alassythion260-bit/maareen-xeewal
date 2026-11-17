@@ -1,0 +1,16 @@
+{
+  "name": "maareen-xeewal",
+  "main": "src/worker.js",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS"
+  },
+  "kv_namespaces": [
+    {
+      "binding": "MENU",
+      // Remplace le texte ci-dessous par l'ID de ta base KV (Cloudflare > Storage & databases > Workers KV)
+      "id": "e6aaa1d91e66485fb2c8a469f4f41ba1"
+    }
+  ]
+}
